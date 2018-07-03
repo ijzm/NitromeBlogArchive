@@ -1,0 +1,83 @@
+/* headings */
+h1,h2,h3{
+    color:#70989F;
+}
+span#heading{
+	color:#70989F;
+}
+/* game controls text */
+span#controls{
+	color:#2A7689;
+}
+.border_color{
+   background:#2A7689;
+   }
+.panel_color{
+    background-color:#A0C8CF;
+}
+   #tabs_container{
+border:0px solid #2A7689;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#2A7689;
+   }
+span#light{
+	color:#2A7689;
+}
+p.color{
+    color:#70989F;
+}
+body {
+    background-image: url('../images/winter/tile.png');
+    background-position: ;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-color:#2A7689;
+}
+.background_mid
+{
+    background-color:#70989F;
+}
+.background_dark
+{
+    background-color:#2A7689;
+}
+.border
+{
+    border:1px solid #70989F;
+}
+.border_light
+{
+    border:1px solid #A0C8CF;
+}
+/* links */
+a:link{
+	color: #2A7689;
+}
+.link_color{
+    color:#2A7689;
+}
+a:visited{
+	color: #2A7689;
+}
+a:hover{
+	color: #4CA7B9;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color:#2A7689;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #2A7689;
+}

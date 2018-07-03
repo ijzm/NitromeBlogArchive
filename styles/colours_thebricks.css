@@ -1,0 +1,96 @@
+/*
+ skin: thebricks
+colours:
+    skin_heading_color: #009ADC
+    skin_text_span_color: #005EFF
+    skin_border_color: #000000
+    skin_mid_color: #0671FF
+    skin_background_color: #E1A300
+    skin_panel_color: #58AEFF
+*/
+/* headings */
+h1,h2,h3{
+    color:#009ADC;
+}
+span#heading{
+	color:#009ADC;
+}
+/* game controls text */
+span#controls{
+	color:#005EFF;
+}
+.border_color{
+   background:#000000;
+   }
+.panel_color{
+    background-color:#58AEFF;
+}
+   #tabs_container{
+border:0px solid #000000;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#000000;
+   }
+span#light{
+	color:#005EFF;
+}
+p.color{
+    color:#0671FF;
+}
+body {
+    background-image: url('../images/thebricks/tile.png');
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-color:#E1A300;
+}
+.background_mid
+{
+    background-color:#0671FF;
+}
+.background_dark
+{
+    background-color:#005EFF;
+}
+.border
+{
+    border:1px solid #0671FF;
+}
+.border_light
+{
+    border:1px solid #58AEFF;
+}
+/* links */
+a:link{
+	color: #005EFF;
+}
+.link_color{
+    color:#005EFF;
+}
+a:visited{
+	color: #005EFF;
+}
+a:hover{
+	color: #0900FF;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color: #005EFF;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #000000;
+}
+.keyline{
+    border: 1px solid #58AEFF;
+}

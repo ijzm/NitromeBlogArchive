@@ -1,0 +1,83 @@
+/* headings */
+h1,h2,h3{
+    color:#EE9900;
+}
+span#heading{
+	color:#EE9900;
+}
+/* game controls text */
+span#controls{
+	color:#E25E00;
+}
+.border_color{
+   background:#000000;
+   }
+.panel_color{
+    background-color:#F7BD25;
+}
+   #tabs_container{
+border:0px solid #000000;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#000000;
+   }
+span#light{
+	color:#E25E00;
+}
+p.color{
+    color:#F7BD25;
+}
+body {
+    background-image: url('../images/nes/tile.png');
+    background-position: ;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-color:#EE9900;
+}
+.background_mid
+{
+    background-color:#F7BD25;
+}
+.background_dark
+{
+    background-color:#F68708;
+}
+.border
+{
+    border:1px solid #F7BD25;
+}
+.border_light
+{
+    border:1px solid #F7BD25;
+}
+/* links */
+a:link{
+	color: #BB3A01;
+}
+.link_color{
+    color:#BB3A01;
+}
+a:visited{
+	color: #BB3A01;
+}
+a:hover{
+	color: #FF9600;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color:#E25E00;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #000000;
+}

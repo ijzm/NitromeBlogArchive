@@ -1,0 +1,83 @@
+/* headings */
+h1,h2,h3{
+    color:#CA8D47;
+}
+span#heading{
+	color:#CA8D47;
+}
+/* game controls text */
+span#controls{
+	color:#9D6156;
+}
+.border_color{
+   background:#000000;
+   }
+.panel_color{
+    background-color:#F7CA7C;
+}
+   #tabs_container{
+border:0px solid #000000;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#000000;
+   }
+span#light{
+	color:#9D6156;
+}
+p.color{
+    color:#CA8D47;
+}
+body {
+    background-image: url('../images/steampunk/tile.png');
+    background-position: top;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-color:#513C2A;
+}
+.background_mid
+{
+    background-color:#CA8D47;
+}
+.background_dark
+{
+    background-color:#7A4D27;
+}
+.border
+{
+    border:1px solid #CA8D47;
+}
+.border_light
+{
+    border:1px solid #F7CA7C;
+}
+/* links */
+a:link{
+	color: #9D6156;
+}
+.link_color{
+    color:#9D6156;
+}
+a:visited{
+	color: #9D6156;
+}
+a:hover{
+	color: #9D6156;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color:#9D6156;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #000000;
+}

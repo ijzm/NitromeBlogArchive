@@ -1,0 +1,96 @@
+/*
+ skin: touchy
+colours:
+    skin_heading_color: #BB6D83
+    skin_text_span_color: #9D8B92
+    skin_border_color: #504A4C
+    skin_mid_color: #D6B8BF
+    skin_background_color: #E2D7D8
+    skin_panel_color: #D0C0C4
+*/
+/* headings */
+h1,h2,h3{
+    color:#BB6D83;
+}
+span#heading{
+	color:#BB6D83;
+}
+/* game controls text */
+span#controls{
+	color:#9D8B92;
+}
+.border_color{
+   background:#504A4C;
+   }
+.panel_color{
+    background-color:#D0C0C4;
+}
+   #tabs_container{
+border:0px solid #504A4C;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#504A4C;
+   }
+span#light{
+	color:#9D8B92;
+}
+p.color{
+    color:#D6B8BF;
+}
+body {
+    background-image: url('../images/touchy/tile.png');
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-color:#E2D7D8;
+}
+.background_mid
+{
+    background-color:#D6B8BF;
+}
+.background_dark
+{
+    background-color:#9D8B92;
+}
+.border
+{
+    border:1px solid #D6B8BF;
+}
+.border_light
+{
+    border:1px solid #D0C0C4;
+}
+/* links */
+a:link{
+	color: #BB6D83;
+}
+.link_color{
+    color:#BB6D83;
+}
+a:visited{
+	color: #BB6D83;
+}
+a:hover{
+	color: #D0C0C4;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color: #9D8B92;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #504A4C;
+}
+.keyline{
+    border: 1px solid #D0C0C4;
+}

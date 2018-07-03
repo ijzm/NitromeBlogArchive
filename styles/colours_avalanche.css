@@ -1,0 +1,83 @@
+/* headings */
+h1,h2,h3{
+    color:#BB6D83;
+}
+span#heading{
+	color:#BB6D83;
+}
+/* game controls text */
+span#controls{
+	color:#791038;
+}
+.border_color{
+   background:#331122;
+   }
+.panel_color{
+    background-color:#f7707a;
+}
+   #tabs_container{
+border:0px solid #331122;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#331122;
+   }
+span#light{
+	color:#791038;
+}
+p.color{
+    color:#DC2856;
+}
+body {
+    background-image: url('../images/avalanche/tile.png');
+    background-position: center -26px;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-color:#d8f8ff;
+}
+.background_mid
+{
+    background-color:#DC2856;
+}
+.background_dark
+{
+    background-color:#791038;
+}
+.border
+{
+    border:1px solid #DC2856;
+}
+.border_light
+{
+    border:1px solid #EC91A8;
+}
+/* links */
+a:link{
+	color: #DC2856;
+}
+.link_color{
+    color:#DC2856;
+}
+a:visited{
+	color: #DC2856;
+}
+a:hover{
+	color: #791038;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color:#b9052b;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #331122;
+}

@@ -1,0 +1,96 @@
+/*
+ skin: icebreaker
+colours:
+    skin_heading_color: #C26E0D
+    skin_text_span_color: #AE7E56
+    skin_border_color: #000000
+    skin_mid_color: #C26E0D
+    skin_background_color: #568351
+    skin_panel_color: #F7CA7C
+*/
+/* headings */
+h1,h2,h3{
+    color:#C26E0D;
+}
+span#heading{
+	color:#C26E0D;
+}
+/* game controls text */
+span#controls{
+	color:#AE7E56;
+}
+.border_color{
+   background:#000000;
+   }
+.panel_color{
+    background-color:#F7CA7C;
+}
+   #tabs_container{
+border:0px solid #000000;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#000000;
+   }
+span#light{
+	color:#AE7E56;
+}
+p.color{
+    color:#C26E0D;
+}
+body {
+    background-image: url('/images/icebreaker/tile.png');
+    background-position: top;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-color:#568351;
+}
+.background_mid
+{
+    background-color:#C26E0D;
+}
+.background_dark
+{
+    background-color:#AE7E56;
+}
+.border
+{
+    border:1px solid #C26E0D;
+}
+.border_light
+{
+    border:1px solid #F7CA7C;
+}
+/* links */
+a:link{
+	color: #C26E0D;
+}
+.link_color{
+    color:#C26E0D;
+}
+a:visited{
+	color: #C26E0D;
+}
+a:hover{
+	color: #F7CA7C;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color: #AE7E56;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #000000;
+}
+.keyline{
+    border: 1px solid #F7CA7C;
+}

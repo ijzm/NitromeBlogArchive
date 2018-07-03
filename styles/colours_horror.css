@@ -1,0 +1,83 @@
+/* headings */
+h1,h2,h3{
+    color:#8A27B8;
+}
+span#heading{
+	color:#8A27B8;
+}
+/* game controls text */
+span#controls{
+	color:#140752;
+}
+.border_color{
+   background:#140752;
+   }
+.panel_color{
+    background-color:#DE81FF;
+}
+   #tabs_container{
+border:0px solid #140752;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#140752;
+   }
+span#light{
+	color:#140752;
+}
+p.color{
+    color:#8A27B8;
+}
+body {
+    background-image: url('../images/horror/tile.png');
+    background-position: top left;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-color:#06003C;
+}
+.background_mid
+{
+    background-color:#8A27B8;
+}
+.background_dark
+{
+    background-color:#140752;
+}
+.border
+{
+    border:1px solid #8A27B8;
+}
+.border_light
+{
+    border:1px solid #DE81FF;
+}
+/* links */
+a:link{
+	color: #672692;
+}
+.link_color{
+    color:#672692;
+}
+a:visited{
+	color: #672692;
+}
+a:hover{
+	color: #8A27B8;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color:#140752;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #140752;
+}

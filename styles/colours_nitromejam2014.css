@@ -1,0 +1,96 @@
+/*
+ skin: nitromejam2014
+colours:
+    skin_heading_color: #FF8000
+    skin_text_span_color: #A2002D
+    skin_border_color: #681600
+    skin_mid_color: #F23F59
+    skin_background_color: #EB2B54
+    skin_panel_color: #FB7366
+*/
+/* headings */
+h1,h2,h3{
+    color:#FF8000;
+}
+span#heading{
+	color:#FF8000;
+}
+/* game controls text */
+span#controls{
+	color:#A2002D;
+}
+.border_color{
+   background:#681600;
+   }
+.panel_color{
+    background-color:#FB7366;
+}
+   #tabs_container{
+border:0px solid #681600;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#681600;
+   }
+span#light{
+	color:#A2002D;
+}
+p.color{
+    color:#F23F59;
+}
+body {
+    background-image: url('../images/nitromejam2014/tile.png');
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-color:#EB2B54;
+}
+.background_mid
+{
+    background-color:#F23F59;
+}
+.background_dark
+{
+    background-color:#A2002D;
+}
+.border
+{
+    border:1px solid #F23F59;
+}
+.border_light
+{
+    border:1px solid #FB7366;
+}
+/* links */
+a:link{
+	color: #BC6149;
+}
+.link_color{
+    color:#BC6149;
+}
+a:visited{
+	color: #BC6149;
+}
+a:hover{
+	color: #FF9C44;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color: #A2002D;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #681600;
+}
+.keyline{
+    border: 1px solid #FB7366;
+}

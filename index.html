@@ -1,0 +1,68 @@
+<html>
+<link rel="stylesheet" type="text/css" href="css/ijzm.css">
+<script type="text/javascript" src="js/skins_2.5.3.10.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+loadDoc("List.txt", LoadButtons);
+var SKINS = ["thebricks","xmas2014skin","oddletrouble","nitromejam2014","icebreakerupdate","dittoskin","avalanche","icebreaker","touchy","100game","nitromev2","steampunk","nes","icetemple","factory","snowman","party","horror","retro","winter","classic"];
+
+$(document).ready(function() {
+for(i = 0; i < SKINS.length; i++) {
+	var b = document.createElement("BUTTON");
+	var t = document.createTextNode(SKINS[i]);
+	b.appendChild(t);
+	var s = SKINS[i];
+	b.onclick = (function(i) {return function() {
+		IJZM(SKINS[i].toString());
+		location.reload();
+	};})(i);
+	document.getElementById("skins").appendChild(b);
+}
+});
+
+function loadDoc(url, cFunction) {
+  var xhttp;
+  xhttp=new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      cFunction(this);
+    }
+ };
+  xhttp.open("GET", url, true);
+  xhttp.send();
+}
+
+function LoadButtons(xhttp) {
+	var BlogPosts = xhttp.response.toString().split("\n")
+	for(i = 0; i <  BlogPosts.length; i++) {
+			CreateButton(BlogPosts[i]);
+	}
+}
+
+function CreateButton(name) {
+	var div = document.createElement("div");
+	var link = document.createElement("a");
+	div.classList.add("IJZMButton");
+	div.classList.add("panel_color");
+	var t = name.charAt(0).toUpperCase() + name.slice(1);
+	t = t.replace("_", " ");
+	t = t.substr(0, t.length - 5);
+	link.innerHTML = t;
+	link.href = name;
+	
+	div.appendChild(link);
+
+	document.getElementById("main").appendChild(div);
+}
+</script>
+<div id="header"> 
+Nitrome Blog Post Archive
+</br>
+<div id="skins">
+</div>
+</div>
+
+<div id="main"> 
+</div>
+</html>

@@ -1,0 +1,83 @@
+/* headings */
+h1,h2,h3{
+    color:#99CFFF;
+}
+span#heading{
+	color:#99CFFF;
+}
+/* game controls text */
+span#controls{
+	color:#5571B9;
+}
+.border_color{
+   background:#000000;
+   }
+.panel_color{
+    background-color:#99CFFF;
+}
+   #tabs_container{
+border:0px solid #000000;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#000000;
+   }
+span#light{
+	color:#5571B9;
+}
+p.color{
+    color:#66AAFF;
+}
+body {
+    background-image: url('../images/icetemple/tile.png');
+    background-position: ;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-color:#CCFFFF;
+}
+.background_mid
+{
+    background-color:#66AAFF;
+}
+.background_dark
+{
+    background-color:#6C84F0;
+}
+.border
+{
+    border:1px solid #66AAFF;
+}
+.border_light
+{
+    border:1px solid #99CFFF;
+}
+/* links */
+a:link{
+	color: #739EF6;
+}
+.link_color{
+    color:#739EF6;
+}
+a:visited{
+	color: #739EF6;
+}
+a:hover{
+	color: #9CD4FF;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color:#5571B9;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #000000;
+}

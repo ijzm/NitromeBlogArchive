@@ -1,0 +1,83 @@
+/* headings */
+h1,h2,h3{
+    color:#F34E9A;
+}
+span#heading{
+	color:#F34E9A;
+}
+/* game controls text */
+span#controls{
+	color:#CC3366;
+}
+.border_color{
+   background:#8A00A8;
+   }
+.panel_color{
+    background-color:#FEB1D5;
+}
+   #tabs_container{
+border:0px solid #8A00A8;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#8A00A8;
+   }
+span#light{
+	color:#CC3366;
+}
+p.color{
+    color:#F34E9A;
+}
+body {
+    background-image: url('../images/nitromev2/tile.png');
+    background-position: top left;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-color:#FD74B3;
+}
+.background_mid
+{
+    background-color:#F34E9A;
+}
+.background_dark
+{
+    background-color:#BE276C;
+}
+.border
+{
+    border:1px solid #F34E9A;
+}
+.border_light
+{
+    border:1px solid #FEB1D5;
+}
+/* links */
+a:link{
+	color: #F34E9A;
+}
+.link_color{
+    color:#F34E9A;
+}
+a:visited{
+	color: #F34E9A;
+}
+a:hover{
+	color: #F587BA;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color:#CC3366;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #8A00A8;
+}

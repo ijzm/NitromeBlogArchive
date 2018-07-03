@@ -1,0 +1,83 @@
+/* headings */
+h1,h2,h3{
+    color:#9B779F;
+}
+span#heading{
+	color:#9B779F;
+}
+/* game controls text */
+span#controls{
+	color:#694C6A;
+}
+.border_color{
+   background:#694C6A;
+   }
+.panel_color{
+    background-color:#CBB7CF;
+}
+   #tabs_container{
+border:0px solid #694C6A;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#694C6A;
+   }
+span#light{
+	color:#694C6A;
+}
+p.color{
+    color:#9B779F;
+}
+body {
+    background-image: url('../images/snowman/tile.png');
+    background-position: top;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-color:#A892E1;
+}
+.background_mid
+{
+    background-color:#9B779F;
+}
+.background_dark
+{
+    background-color:#694C6A;
+}
+.border
+{
+    border:1px solid #9B779F;
+}
+.border_light
+{
+    border:1px solid #CBB7CF;
+}
+/* links */
+a:link{
+	color: #9B759F;
+}
+.link_color{
+    color:#9B759F;
+}
+a:visited{
+	color: #9B759F;
+}
+a:hover{
+	color: #B498BA;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color:#694C6A;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #694C6A;
+}

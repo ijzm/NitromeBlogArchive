@@ -1,0 +1,96 @@
+/*
+ skin: xmas2014skin
+colours:
+    skin_heading_color: #508ACC
+    skin_text_span_color: #508ACC
+    skin_border_color: #010C1C
+    skin_mid_color: #0671FF
+    skin_background_color: #045DD4
+    skin_panel_color: #508ACC
+*/
+/* headings */
+h1,h2,h3{
+    color:#508ACC;
+}
+span#heading{
+	color:#508ACC;
+}
+/* game controls text */
+span#controls{
+	color:#508ACC;
+}
+.border_color{
+   background:#010C1C;
+   }
+.panel_color{
+    background-color:#508ACC;
+}
+   #tabs_container{
+border:0px solid #010C1C;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#010C1C;
+   }
+span#light{
+	color:#508ACC;
+}
+p.color{
+    color:#0671FF;
+}
+body {
+    background-image: url('../images/xmas2014skin/tile.png');
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-color:#045DD4;
+}
+.background_mid
+{
+    background-color:#0671FF;
+}
+.background_dark
+{
+    background-color:#508ACC;
+}
+.border
+{
+    border:1px solid #0671FF;
+}
+.border_light
+{
+    border:1px solid #508ACC;
+}
+/* links */
+a:link{
+	color: #5898E0;
+}
+.link_color{
+    color:#5898E0;
+}
+a:visited{
+	color: #5898E0;
+}
+a:hover{
+	color: #8CC0ED;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color: #508ACC;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #010C1C;
+}
+.keyline{
+    border: 1px solid #508ACC;
+}

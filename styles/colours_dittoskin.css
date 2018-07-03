@@ -1,0 +1,96 @@
+/*
+ skin: dittoskin
+colours:
+    skin_heading_color: #8F0A0A
+    skin_text_span_color: #4A1315
+    skin_border_color: #852325
+    skin_mid_color: #FE8A25
+    skin_background_color: #000000
+    skin_panel_color: #FEAD32
+*/
+/* headings */
+h1,h2,h3{
+    color:#8F0A0A;
+}
+span#heading{
+	color:#8F0A0A;
+}
+/* game controls text */
+span#controls{
+	color:#4A1315;
+}
+.border_color{
+   background:#852325;
+   }
+.panel_color{
+    background-color:#FEAD32;
+}
+   #tabs_container{
+border:0px solid #852325;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#852325;
+   }
+span#light{
+	color:#4A1315;
+}
+p.color{
+    color:#FE8A25;
+}
+body {
+    background-image: url('../images/dittoskin/tile.png');
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-color:#000000;
+}
+.background_mid
+{
+    background-color:#FE8A25;
+}
+.background_dark
+{
+    background-color:#4A1315;
+}
+.border
+{
+    border:1px solid #FE8A25;
+}
+.border_light
+{
+    border:1px solid #FEAD32;
+}
+/* links */
+a:link{
+	color: #D85B16;
+}
+.link_color{
+    color:#D85B16;
+}
+a:visited{
+	color: #D85B16;
+}
+a:hover{
+	color: #FE8A25;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color: #4A1315;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #852325;
+}
+.keyline{
+    border: 1px solid #FEAD32;
+}

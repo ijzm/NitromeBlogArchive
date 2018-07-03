@@ -1,0 +1,96 @@
+/*
+ skin: oddletrouble
+colours:
+    skin_heading_color: #FF8000
+    skin_text_span_color: #5690C7
+    skin_border_color: #2E2E2A
+    skin_mid_color: #9A9582
+    skin_background_color: #A0CFFA
+    skin_panel_color: #B9B6B2
+*/
+/* headings */
+h1,h2,h3{
+    color:#FF8000;
+}
+span#heading{
+	color:#FF8000;
+}
+/* game controls text */
+span#controls{
+	color:#5690C7;
+}
+.border_color{
+   background:#2E2E2A;
+   }
+.panel_color{
+    background-color:#B9B6B2;
+}
+   #tabs_container{
+border:0px solid #2E2E2A;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#2E2E2A;
+   }
+span#light{
+	color:#5690C7;
+}
+p.color{
+    color:#9A9582;
+}
+body {
+    background-image: url('../images/oddletrouble/tile.png');
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-color:#A0CFFA;
+}
+.background_mid
+{
+    background-color:#9A9582;
+}
+.background_dark
+{
+    background-color:#5690C7;
+}
+.border
+{
+    border:1px solid #9A9582;
+}
+.border_light
+{
+    border:1px solid #B9B6B2;
+}
+/* links */
+a:link{
+	color: #DC6A19;
+}
+.link_color{
+    color:#DC6A19;
+}
+a:visited{
+	color: #DC6A19;
+}
+a:hover{
+	color: #FFBB00;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color: #5690C7;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #2E2E2A;
+}
+.keyline{
+    border: 1px solid #B9B6B2;
+}

@@ -1,0 +1,83 @@
+/* headings */
+h1,h2,h3{
+    color:#B0BCB2;
+}
+span#heading{
+	color:#B0BCB2;
+}
+/* game controls text */
+span#controls{
+	color:#777E78;
+}
+.border_color{
+   background:#293158;
+   }
+.panel_color{
+    background-color:#BBCCBB;
+}
+   #tabs_container{
+border:0px solid #293158;
+	border-bottom:0px;
+	background:transparent;
+    position: absolute;
+    z-index:107;
+-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+   }
+.border_color2{
+    border-color:#293158;
+   }
+span#light{
+	color:#777E78;
+}
+p.color{
+    color:#808C82;
+}
+body {
+    background-image: url('../images/retro/tile.png');
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-color:#7F9504;
+}
+.background_mid
+{
+    background-color:#808C82;
+}
+.background_dark
+{
+    background-color:#293158;
+}
+.border
+{
+    border:1px solid #808C82;
+}
+.border_light
+{
+    border:1px solid #BBCCBB;
+}
+/* links */
+a:link{
+	color: #293158;
+}
+.link_color{
+    color:#293158;
+}
+a:visited{
+	color: #293158;
+}
+a:hover{
+	color: #A3AEA5;
+}
+
+a.white{
+	color: #FFFFFF;
+}
+
+.info_color{
+ color:#777E78;
+}
+/* border colours */
+div#banner_box, div#game_border_box, div#left_feature_box, div#comming_soon_box, div#large_game_border_box, div#more_games_border, div#skyscraper_box, div#left_top_box, div#left_bottom_box, div#large_box{
+	background: #293158;
+}

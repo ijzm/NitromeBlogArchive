@@ -1,0 +1,34 @@
+.IJZMButton {
+	display: inline-block;
+	border-radius: 3px;
+	width: 100px;
+	height: 30px;
+	background-color: orange;
+	color: white;
+	margin: 5px;
+	
+	text-align: center;
+	padding: 5px;
+}
+
+.IJZMButton a {
+	text-decoration: none;
+	background-color: white;
+	display: block; 
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+}
+
+#main {
+	background: none repeat scroll 0 0 #FFF;
+	width: 600px;
+	margin: auto;
+	margin-top: 40px;
+
+}
+
+#header {
+	font-size: 4em;
+	background-color: white
+}
